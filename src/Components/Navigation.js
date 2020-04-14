@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import styled , { css } from 'styled-components';
+import styled  from 'styled-components';
 import LogoText from '../Images/logo.png';
 
 export class Navigation extends Component {

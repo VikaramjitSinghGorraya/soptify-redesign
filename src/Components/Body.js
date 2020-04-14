@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import styled, {css} from 'styled-components'
+import styled  from 'styled-components'
 import LandingPageGirl from '../Images/landing-page-girl.png';
 import Navigation from '../Components/Navigation'
 export class Body extends Component {

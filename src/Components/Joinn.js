@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import styled ,{css} from 'styled-components'
+import styled from 'styled-components'
 import Navigation from '../Components/Navigation'
 import Footer from '../Components/Footer'
 export class Joinn extends Component {

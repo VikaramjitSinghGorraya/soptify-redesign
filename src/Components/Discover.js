@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import styled, {css} from 'styled-components'
+import styled  from 'styled-components'
 import Navigation from '../Components/Navigation'
 import Footer from '../Components/Footer'
 import AlbumsImage from '../Images/albums.svg'
@@ -16,13 +16,13 @@ export class Discover extends Component {
                         <h1>Discover new music</h1>
                         <ThreeImageContainer>
                             <EacImageWrapper>
-                            <img src={MicrophoneImage}/>
+                            <img src={MicrophoneImage} alt="microPhone"/>
                             </EacImageWrapper>
                             <EacImageWrapper>
-                            <img src={AlbumsImage}/>
+                            <img src={AlbumsImage} alt ="albumImage"/>
                             </EacImageWrapper>
                             <EacImageWrapper>
-                            <img src={MoreImage}/>
+                            <img src={MoreImage} alt ="moreImage"/>
                             </EacImageWrapper>
                         </ThreeImageContainer>
                         <h4>By joining you get the benefit of listening to the latest albums released</h4>
