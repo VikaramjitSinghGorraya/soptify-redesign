@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import styled  from 'styled-components'
 import LandingPageGirl from '../Images/landing-page-girl.png';
-import Navigation from '../Components/Navigation'
+import Navigation from './Navigation'
 export class Body extends Component {
     render() {
         return (
